@@ -1,0 +1,233 @@
+@font-face {
+    font-family: 'Punk Typewriter';
+    src: url('../font/Punk\ Typewriter.eot');
+}
+
+body {
+    background-color: #141414;
+}
+
+.wrapper {
+    margin: auto;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 2.4rem !important;
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 0 !important;
+}
+
+.navigation,
+.nav-list,
+.article-content,
+.container-foot {
+    display: flex !important;
+}
+
+.display-4,
+.lead,
+.nav-link,
+.accroche-link,
+.footer-link,
+.sessions-link,
+#five,
+#six,
+#seven,
+#eight, 
+.subtitle-article {
+    color: #ffff !important;
+}
+
+.content-one,
+.content-two,
+.content-three,
+.content-four, 
+.sessions-link {
+    border-radius: 3px;
+    border: 1px solid #c89739;
+}
+
+.subtitle-article,
+#five,
+#six,
+#seven,
+#eight {
+    font-family:'Punk Typewriter', 'Times New Roman', Times, serif;
+    font-size: 3.5rem;
+    margin: 0;
+}
+
+/* ---------------------------   HEADER NAVIGATION   --------------------------- */
+.nav-item {
+    margin-left: 15px !important;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    padding: 8px 15px !important;
+    border: 1px solid transparent;
+}
+
+.active {
+    border-color: #c89739;
+    border-radius: 3px;
+}
+
+.nav-link:hover {
+    transition: .5s !important;
+    border-color: #c89739;
+    border-radius: 3px;
+}
+
+/* ---------------------------   FOOTER  --------------------------- */
+.container-foot {
+    align-items: center;
+    justify-content: center;
+    height: 190px;
+}
+
+.footer-link {
+    font-size: 1.1rem;
+}
+
+.footer-link:hover {
+    color: #fff;
+    border-bottom: 1px solid #c89739;
+}
+
+
+/* ---------------------------   HOME  --------------------------- */
+
+/* --------- CONTENT --------- */
+.projecteur {
+    height: 370px;
+    border-top: 1px solid #c89739;
+    border-bottom: 1px solid #c89739;
+    background-image: url(../image/projecteur.jpg);
+}
+
+.accroche {
+    width: 600px;
+    margin-left: 630px;
+    text-align: right;
+}
+
+.lead {
+    font-size: 2rem !important;
+    color: #c89739 !important;
+    font-weight: 300 !important;
+    padding-top: 20px;
+}
+
+.information {
+    color: #fad390;
+    font-size: 1.05rem;
+    line-height: 20px;
+    padding-top: 10px;
+}
+
+.accroche-link:hover {
+    color: #fff;
+    border-bottom: 1px solid #c89739;
+}
+.block-articles {
+    margin-top: 25px;
+}
+
+.subtitle {
+    font-family:'Punk Typewriter', 'Times New Roman', Times, serif;
+    font-size: 4.5rem;
+    color: #c89739;
+    text-align: center;
+}
+
+.content-one,
+.content-two,
+.content-three,
+.content-four {
+    text-align: left !important;
+    width: 300px !important;
+    height: 110px !important;
+    padding: 0 0 10px 10px !important;
+}
+
+.article-content {
+    flex-direction: column;
+}
+
+.news,
+.projections {
+    border-bottom: 1px solid #c89739;
+}
+
+.date {
+    color: #c89739;
+    margin-bottom: 15px;
+}
+time {
+    color: #fad390;
+    font-style: italic;
+    font-weight: 300 !important;
+}
+
+/* ----- CAROUSEL ----- */
+.sessions-list {
+    display: flex;
+    justify-content: center;
+}
+
+.sessions-item {
+    margin-left: 20px;
+}
+
+.sessions-link {
+    padding: 8px 15px !important;
+}
+
+.autoplay {
+    width: 900px !important;;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.poster {
+    width: 300px !important;
+    height: 400px !important;
+    color: #fff !important;
+    text-align: center !important;
+    margin: 15px 8px !important;
+}
+
+.poster-link {
+    padding: 15px 0 !important;
+}
+.poster-link:hover{
+    color: #c89739;
+}
+
+/* ----- MAP ----- */
+.map {
+    padding-top: 80px;
+
+    border-top: 1px solid #c89739;
+}
+iframe {
+  width: 70vw;
+  height: 610px;
+  border: 1px solid #c89739;
+  border-radius: 10px;
+  box-shadow: 5px 5px -5px #2a2826;
+}
+
+/* ----- SEANCES ----- */
+.card-title {
+    font-size: 3rem;
+    color: #141414 !important;
+}
+
