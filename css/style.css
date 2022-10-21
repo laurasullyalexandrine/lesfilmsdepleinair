@@ -19,14 +19,14 @@ h1 {
 }
 
 ul {
-    list-style: none;
     margin-bottom: 0 !important;
 }
 
 .navigation,
 .nav-list,
 .article-content,
-.container-foot {
+.container-foot,
+.about {
     display: flex !important;
 }
 
@@ -115,7 +115,7 @@ ul {
     height: 370px;
     border-top: 1px solid #c89739;
     border-bottom: 1px solid #c89739;
-    background-image: url(../image/projecteur.jpg);
+    background-image: url(../image/home/projecteur.jpg);
 }
 
 .accroche {
@@ -172,7 +172,8 @@ ul {
 }
 
 .news,
-.projections {
+.projections,
+.about {
     border-bottom: 1px solid #c89739;
 }
 
@@ -245,5 +246,16 @@ iframe {
    font-size: 1.5rem;
    font-weight: 400;
    padding: 8px 0;
+}
+
+
+/* ----- SEANCES ----- */
+.about {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-text {
+    align-self: center;
 }
 
