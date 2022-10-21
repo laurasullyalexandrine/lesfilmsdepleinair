@@ -63,10 +63,10 @@
         </section>
     </header>
 
-    <main class="wrapper">
+    <main class="wrapper d-flex flex-column">
         <!-- Block content -->
-        <article class="article-content">
-            <section class="news d-flex flex-column p-5">
+        <article class="article-content d-flex flex-column">
+            <section class="news d-flex flex-column mb-4 p-5">
                 <h2 class="subtitle m-5">L'association "Les Films de Plein Air"</h2>
                 <figure class="w-100">
                     <img class="w-100" src="../image/about/assoc.png" alt="team-association">
@@ -74,18 +74,55 @@
                 </figure>
             </section>
 
-            <section class="about m-5">
+            <section class="about d-flex flex-column mb-4 p-3">
                 <h2 class="subtitle m-5">À propos de nous</h2>
-                <p class="about-text text-light w-50 m-3">Nous venons d'obtenir le droit d'organiser notre festival <strong>"Les Films de Plein Air"</strong> qui ouvrira ses porte du 5 aout au 8 aout de 18 heures à minuit pour notre grand plaisir et nous espérons le votre.</p>
+                <p class="about-text align-self-center text-light w-75 m-3">Nous venons d'obtenir le droit d'organiser notre festival <strong>"Les Films de Plein Air",</strong> 
+                    il ouvrira ses porte du 5 aout au 8 aout de 18 heures à minuit pour notre grand plus plaisir et nous espérons le votre.</p>
+                    
+                <div class="about-card d-flex flex-row flex-wrap justify-content-center">
+                    <div class="card m-4" style="width: 18rem;">
+                        <img src="../image/about/concours.png" class="card-img-top" alt="clair-obscure-poster">
+                        <div class="card-body">
+                            <h5 class="card-title card-subtitle">Concours</h5>
+                            <p class="card-text">Synergistically innovate leveraged networks with market positioning
+                                technology. Dynamically innovate.</p>
+                        </div>
+                    </div>
+                    <div class="card m-4" style="width: 18rem;">
+                        <img src="../image/about/petit-bouts-de-films.png" class="card-img-top" alt="clair-obscure-poster">
+                        <div class="card-body">
+                            <h5 class="card-title card-subtitle">Petits bouts de film</h5>
+                            <p class="card-text">Synergistically innovate leveraged networks with market positioning
+                                technology. Dynamically innovate.</p>
+                        </div>
+                    </div>
+                    <div class="card m-4" style="width: 18rem;">
+                        <img src="../image/about/mains.png" class="card-img-top" alt="clair-obscure-poster">
+                        <div class="card-body">
+                            <h5 class="card-title card-subtitle">Engagés</h5>
+                            <p class="card-text">Synergistically innovate leveraged networks with market positioning
+                                technology. Dynamically innovate.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact d-flex flex-column mb-4 p-3">
+                <h2 class="subtitle m-5">Nous contacter</h2>
+                <h4 class="contact-subtile align-self-center text-light mb-3">Contactez notre équipe de bénévoles.</h4>
+                <p class="contact-text align-self-center mb-3"> <span class="about-span">Email</span> : <a class="contact-link" href="mailto:">contact@les-films-de-plein-air.org</a> </p>
+                <p class="contact-text align-self-center mb-3"> <span class="about-span">Site</span> : <a class="contact-link" href="https://www.les-films-de-plein-air.org">Les Films de Plein Air</a> </p>
+                <p class="contact-text align-self-center mb-3"> <span class="about-span">Adresse</span> : 9 rue de Paris 91120 Palaiseau</p>
+                <p class="contact-text align-self-center mb-3"><span class="about-span">Tel</span> : <a class="contact-link" href="tel:+33 1 44 28 09 56">01 44 28 09 56</a> </p>
             </section>
         </article>
 
         <!-- Block footer -->
-        <footer class="container-foot">
+        <footer class="container-foot d-flex justify-content-center">
             <div class="row">
                 <div class="col">
                     <ul class="list-inline text-center">
-                        <li class="list-inline-item text-light">Copyright &#169; Festival Les Films de Pleins Air 2022&ensp;&ensp;</li>
+                        <li class="list-inline-item text-light">Copyright &#169; <strong>Festival Les Films de Pleins Air 2023</strong> &ensp;&ensp;</li>
                         <li class="list-inline-item"><a class="footer-link" href="projection.html">Séances</a>
                         </li>
                         <li class="list-inline-item ms-4"><a class="footer-link" href="about.html">À propos</a></li>
@@ -103,7 +140,6 @@
                 </div>
             </div>
         </footer>
-
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"

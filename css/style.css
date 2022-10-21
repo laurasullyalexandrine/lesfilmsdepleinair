@@ -2,7 +2,7 @@
     font-family: 'Punk Typewriter';
     src: url('../font/Punk\ Typewriter.eot');
 }
-
+/* ---------------------------   COMMON   --------------------------- */
 body {
     background-color: #141414;
 }
@@ -10,8 +10,6 @@ body {
 .wrapper {
     margin: auto;
     max-width: 1300px;
-    display: flex;
-    flex-direction: column;
 }
 
 h1 {
@@ -22,13 +20,14 @@ ul {
     margin-bottom: 0 !important;
 }
 
-.navigation,
-.nav-list,
-.article-content,
-.container-foot,
-.about {
-    display: flex !important;
+
+.news,
+.projections,
+.about,
+.contact {
+    border-bottom: 1px solid #c89739;
 }
+
 
 .display-4,
 .lead,
@@ -40,7 +39,9 @@ ul {
 #six,
 #seven,
 #eight, 
-.subtitle-article {
+.subtitle-article,
+.card-body,
+.contact-text {
     color: #ffff !important;
 }
 
@@ -59,6 +60,22 @@ ul {
 #eight {
     font-size: 2.5rem;
     margin: 0;
+}
+
+.card {
+    border: 1px solid #c89739;
+    background-color: transparent;
+}
+
+.card-title {
+    font-size: 3rem;
+}
+
+.card-subtitle,
+.contact-subtile {
+   font-size: 1.5rem;
+   font-weight: 400;
+   padding: 8px 0;
 }
 
 /* ---------------------------   HEADER NAVIGATION   --------------------------- */
@@ -94,7 +111,6 @@ ul {
 /* ---------------------------   FOOTER  --------------------------- */
 .container-foot {
     align-items: center;
-    justify-content: center;
     height: 190px;
 }
 
@@ -167,16 +183,6 @@ ul {
     padding: 0 0 10px 10px !important;
 }
 
-.article-content {
-    flex-direction: column;
-}
-
-.news,
-.projections,
-.about {
-    border-bottom: 1px solid #c89739;
-}
-
 .date {
     color: #c89739;
     margin-bottom: 15px;
@@ -236,26 +242,19 @@ iframe {
   box-shadow: 5px 5px -5px #2a2826;
 }
 
-/* ----- SEANCES ----- */
-.card-title {
-    font-size: 3rem;
-    color: #141414 !important;
+
+/* ----- MAP ----- */
+.about-span {
+    font-weight: bold;
 }
 
-.card-subtitle {
-   font-size: 1.5rem;
-   font-weight: 400;
-   padding: 8px 0;
+.contact-link:hover {
+    color: #fff;
+    border-bottom: 1px solid #c89739;
+   
 }
 
-
-/* ----- SEANCES ----- */
-.about {
-  flex-direction: column;
-  justify-content: center;
-}
-
-.about-text {
-    align-self: center;
+@media screen and (max-width: 1400) {
+    
 }
 
