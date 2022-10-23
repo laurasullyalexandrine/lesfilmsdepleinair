@@ -8,6 +8,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/reset.css">
@@ -19,7 +20,7 @@
 
 <body>
     <!-- Block navigation -->
-    <header class="container-nav d-flex flex-column w-100 justify-content-center ">
+    <header class="container-nav d-flex flex-column w-100 justify-content-center">
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
@@ -64,9 +65,9 @@
             </div>
         </section>
     </header>
-   
+
+   <!-- Block content -->
     <main class="wrapper d-flex flex-column">
-        <!-- Block content -->
         <article class="article-content d-flex flex-column">
             <section class="news d-flex flex-column mb-4 p-5">
                 <h2 class="subtitle display-6 fs-2 m-5">L'association "Les Films de Plein Air"</h2>
@@ -75,12 +76,10 @@
                     <figcaption class="text-light fs-6">Toute notre équipe <span class="fst-italic">(David- Jennifer - Érica - William - Mélodie - Dévi)</span>  </figcaption>
                 </figure>
             </section>
-
             <section class="about d-flex flex-column mb-4 p-3">
                 <h2 class="subtitle display-6 m-5">À propos de nous</h2>
                 <p class="about-text align-self-center text-light w-75 m-3">Nous venons d'obtenir le droit d'organiser notre festival <strong>"Les Films de Plein Air",</strong> 
                     il ouvrira ses porte du 5 aout au 8 aout de 18 heures à minuit pour notre grand plus plaisir et nous espérons le votre.</p>
-                    
                 <div class="about-card d-flex flex-row flex-wrap justify-content-center">
                     <div class="card m-4" style="width: 18rem;">
                         <img src="../image/about/concours.png" class="card-img-top" alt="clair-obscure-poster">
@@ -108,7 +107,6 @@
                     </div>
                 </div>
             </section>
-
             <section class="contact d-flex flex-column mb-4 p-3">
                 <h2 class="subtitle display-6 m-5">Nous contacter</h2>
                 <h4 class="contact-subtile align-self-center text-light mb-3">Contactez notre équipe de bénévoles.</h4>
@@ -119,27 +117,29 @@
             </section>
         </article>
 
-        <!-- Block footer -->
-        <footer class="container-foot d-flex justify-content-center">
-            <div class="row">
-                <div class="col">
-                    <ul class="list-inline text-center">
-                        <li class="list-inline-item"><a class="footer-link" href="projection.html">Séances</a>
-                        </li>
-                        <li class="list-inline-item ms-4"><a class="footer-link" href="about.html">À propos</a></li>
-                        <li class="list-inline-item ms-4"><a class="footer-link" href="legal-mentions.html">Mentions
-                                légales</a></li>
-                        <li class="list-inline-item ms-4"><a class="social-link" href="#"><img
-                                    src="../image/home/facebook.png" alt="icon-facebook"></a></li>
-                        <li class="list-inline-item ms-4"><a class="social-link" href="#"><img
-                                    src="../image/home/instagram.png" alt="icon-facebook"></a></li>
-                        <li class="list-inline-item ms-4"><a class="social-link" href="#"><img
-                                    src="../image/home/twitter.png" alt="icon-facebook"></a></li>
-                        <li class="list-inline-item ms-4"><a class="social-link" href="#"><img
-                                    src="../image/home/youtube.png" alt="icon-facebook"></a></li>
-                        <li class="list-inline-item text-light">Copyright &#169; <strong>Festival Les Films de Pleins Air 2023</strong> &ensp;&ensp;</li>
-                    </ul>
-                </div>
+       <!-- Block footer -->
+        <footer class="text-center text-white">
+            <div class="container p-4">
+                <section class="mb-4">
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-youtube"></i></a>        
+                </section>
+                <section class="">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0 ">
+                            <ul class="list-unstyled mb-0">
+                            <li class="mb-3"><a href="projection.html" class="text-light">Séances</a></li>
+                            <li class="mb-3"><a href="about.html" class="text-light">À propos</a></li>
+                            <li class="mb-3"><a href="legal-mentions.html" class="text-light">Mentions légalges</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                Copyright &#169; <strong>Festival Les Films de Pleins Air 2022</strong> &ensp;&ensp;
             </div>
         </footer>
     </main>

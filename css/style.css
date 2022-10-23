@@ -280,6 +280,14 @@ iframe {
         text-shadow: 1px 1px 2px #2a2826;
         margin-left: initial;
     }
+
+    .container-foot {
+        flex-direction: column !important;
+    }
+
+    .col-foot {
+        flex-direction: column;
+    }
 }
 
 @media screen  and (max-width:990px) {
