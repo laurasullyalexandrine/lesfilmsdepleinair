@@ -19,23 +19,19 @@
 
 <body>
     <!-- Block navigation -->
-    <header class="container-nav w-100">
+    <header class="container-nav d-flex flex-column w-100 justify-content-center ">
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
-                    <img class="logo-web" src="../image/home/logo.png" alt="logo-les-films-de-plein-air">
+                    <img class="logo w-75" src="../image/home/logo.png" alt="logo-les-films-de-plein-air">
                 </a>
                 <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                    <!-- Block search -->
-                <form class="d-flex input-group w-50">
-                    <button class="btn btn-outline-secondary" type="submit">Recherche</button>
-                    <input class="form-control me-2" type="search" aria-label="Example text with button addon">
-                </form>
+
                 <!-- Block menu -->
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav me-auto ">
                     <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="index.html">Accueil</a>
                     </li>
@@ -46,27 +42,34 @@
                     <a class="nav-link" href="about.html">À propos</a>
                     </li>
                 </ul>
+                <!-- Block search -->
+                <form class="d-flex input-group w-50">
+                    <button class="btn btn-outline-secondary" type="submit">Recherche</button>
+                    <input class="form-control me-2" type="search" aria-label="Example text with button addon">
+                </form>               
                 </div>
             </div>
         </nav>
-        <section class="projecteur">
-            <div class="accroche">
-                <h1 class="display-4 mt-3">
-                 <strong>Festival <span class="title-principal">"Les Films de Plein Air"</span> !</strong> 
+        
+        <section class="projecteur d-flex ">
+            <div class="accroche p-5 p-sm-5">
+                <h1 class="display-4 fs-1">
+                    <strong>Le festival <br> <span class="title-principal">"Les Films de Plein Air"</span> !</strong> 
                 </h1>
-                <p class="lead">Ouvre ses portes du 5 au 8 août 2023</p>
-                <p class="information">L'accès au festival est gratuit de 18h à minuit !
+                <p class="lead fs-5">Ouvre ses portes du 5 au 8 août 2023</p>
+                <p class="information pt-4 pt-lg-4">L'accès au festival est gratuit de 18h à minuit !
                     Pour vous accueillir au mieux, <br> vous pouvez nous aider en cliquant sur le bouton "je réserve ma place"<br> en allant sur notre page
                     <a class="accroche-link" href="projection.html">Séances</a>
                 </p>
             </div>
         </section>
     </header>
+
     <main class="wrapper d-flex flex-column">
         <!-- Block content -->
         <article class="article-content d-flex flex-column">
             <section class="projections d-flex flex-column mb-4 p-5">
-                <h2 class="subtitle m-5">Nos séances ... </h2>
+                <h2 class="subtitle display-6 m-5">Nos séances ... </h2>
                 <h3 id="five">5 août </h3>
                 <div class="d-flex justify-content-center">
                     <div class="card m-4" style="width: 18rem;">
@@ -193,7 +196,7 @@
             </section>
             <!-- Block map -->
             <section class="map d-flex flex-column justify-content-center">
-                <h2 class="subtitle mt-4 m-5">Nous trouver</h2>
+                <h2 class="subtitle display-6 mt-4 m-5">Nous trouver</h2>
                 <iframe class="align-self-center"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.873738203499!2d2.3067663156751306!3d48.87968347928956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fbe98f714c3%3A0xe62425fddeddc402!2sParc%20Monceau!5e0!3m2!1sfr!2sfr!4v1665771761215!5m2!1sfr!2sfr"
                     allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

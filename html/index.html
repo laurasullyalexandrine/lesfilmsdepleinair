@@ -19,23 +19,19 @@
 
 <body>
     <!-- Block navigation -->
-    <header class="container-nav w-100">
+    <header class="container-nav d-flex flex-column w-100 justify-content-center ">
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
-                    <img class="logo-web" src="../image/home/logo.png" alt="logo-les-films-de-plein-air">
+                    <img class="logo w-75" src="../image/home/logo.png" alt="logo-les-films-de-plein-air">
                 </a>
                 <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                    <!-- Block search -->
-                <form class="d-flex input-group w-50">
-                    <button class="btn btn-outline-secondary" type="submit">Recherche</button>
-                    <input class="form-control me-2" type="search" aria-label="Example text with button addon">
-                </form>
+
                 <!-- Block menu -->
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav me-auto ">
                     <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
                     </li>
@@ -46,33 +42,40 @@
                     <a class="nav-link" href="about.html">À propos</a>
                     </li>
                 </ul>
+                <!-- Block search -->
+                <form class="d-flex input-group w-50">
+                    <button class="btn btn-outline-secondary" type="submit">Recherche</button>
+                    <input class="form-control me-2" type="search" aria-label="Example text with button addon">
+                </form>               
                 </div>
             </div>
         </nav>
-        <section class="projecteur">
-            <div class="accroche">
-                <h1 class="display-4 mt-3">
-                 <strong>Festival <span class="title-principal">"Les Films de Plein Air"</span> !</strong> 
+        
+        <section class="projecteur d-flex ">
+            <div class="accroche p-5 p-sm-5">
+                <h1 class="display-4 fs-1">
+                    <strong>Le festival <br> <span class="title-principal">"Les Films de Plein Air"</span> !</strong> 
                 </h1>
-                <p class="lead">Ouvre ses portes du 5 au 8 août 2023</p>
-                <p class="information">L'accès au festival est gratuit de 18h à minuit !
+                <p class="lead fs-5">Ouvre ses portes du 5 au 8 août 2023</p>
+                <p class="information pt-4 pt-lg-4">L'accès au festival est gratuit de 18h à minuit !
                     Pour vous accueillir au mieux, <br> vous pouvez nous aider en cliquant sur le bouton "je réserve ma place"<br> en allant sur notre page
                     <a class="accroche-link" href="projection.html">Séances</a>
                 </p>
             </div>
         </section>
     </header>
+
     <main class="wrapper d-flex flex-column">
         <!-- Block content -->
         <article class="article-content d-flex flex-column">
             <section class="news d-flex flex-column mb-4 p-5">
-                <h2 class="subtitle m-5">Toute l'actualité</h2>
+                <h2 class="subtitle display-6 m-5">Toute l'actualité</h2>
                 <div class="block-articles d-flex flex-wrap justify-content-center">
                     <div class="two">
                         <img src="../image/articles/pm-two.png" alt="photo-parc-monceau-two" class="image-pm-two">
                         <h6 class="date">Lorem ipsum dolor sit amet. <time datetime="2022-11-09">9 oct. 2022</time> </h6>
                         <div class="content-two mb-4">
-                            <h5 class="subtitle-article">Compellingly</h5>
+                            <h5 class="subtitle-article fs-4">Compellingly</h5>
                             <p class="text-light">Intrinsicly aggregate resource sucking web-readiness with accurate niches.
                                 Completely engage.</p>
                         </div>
@@ -82,7 +85,7 @@
                         <img src="../image/articles/pm-one.png" alt="photo-parc-monceau-one" class="image-pm-one">
                         <h6 class="date">Lorem ipsum dolor sit amet. <time datetime="2022-11-10">10 oct. 2022</time> </h6>
                         <div class="content-one mb-4">
-                            <h5 class="subtitle-article">Reintermediate</h5>
+                            <h5 class="subtitle-article fs-4">Reintermediate</h5>
                             <p class="text-light">Compellingly reintermediate customized niches with quality e-tailers.
                             </p>
                         </div>
@@ -93,7 +96,7 @@
                         <img src="../image/articles/pm-three.png" alt="photo-parc-monceau-three" class="image-pm-three">
                         <h6 class="date">Lorem ipsum dolor sit amet. <time datetime="2022-11-11">11 oct. 2022</time> </h6>
                         <div class="content-three mb-4">
-                            <h5 class="subtitle-article">Magnetic</h5>
+                            <h5 class="subtitle-article fs-4">Magnetic</h5>
                             <p class="text-light">Objectively formulate web-enabled e-business without installed base
                                 technology. Dramatically evolve.</p>
                         </div>
@@ -103,7 +106,7 @@
                         <img src="../image/articles/pm-four.png" alt="photo-parc-monceau-three" class="image-pm-four">
                         <h6 class="date">Lorem ipsum dolor sit amet. <time datetime="2022-11-12">12 oct. 2022</time> </h6>
                         <div class="content-four mb-4">
-                            <h5 class="subtitle-article">Amet</h5>
+                            <h5 class="subtitle-article fs-4">Amet</h5>
                             <p class="text-light">Phosfluorescently evolve best-of-breed leadership skills without
                                 vertical synergy. Interactively extend.
                             </p>
@@ -114,7 +117,7 @@
 
             <!-- Block carousel -->
             <section class="sessions d-flex flex-column justify-content-center mb-4">
-                <h2 class="subtitle m-5">Projections</h2>
+                <h2 class="subtitle display-6 m-5">Projections</h2>
                 <ul class="sessions-list">
                     <li class="sessions-item">
                         <a class="sessions-link" href="projection.html#five">5 août 2023</a>
@@ -131,7 +134,7 @@
                 </ul>
             </section>
             <section class="autoplay mb-4">
-                <h2 class="subtitle m-5">Notre sélection</h2>
+                <h2 class="subtitle display-6 m-5">Notre sélection</h2>
                 <p class="poster"><a class="poster-link" href="projection.html#five"><img src="../image/films/clair-obscure.png" alt="clair-obscure-poster">Clair-Obscure &ensp;<time datetime="2023-08-05">5 août</time></a> </p>
                 <p class="poster"><a class="poster-link" href="projection.html#six"><img src="../image/films/fugitif.png" alt="fugitif-poster">Fugitif &ensp;<time datetime="2023-08-06">6 août</time></a> </p>
                 <p class="poster"><a class="poster-link" href="projection.html#seven"><img src="../image/films/un-homme-ideal.png" alt="un-homme-ideal-poster">Un homme idéal &ensp;<time datetime="2023-08-07">7 août</time></a> </p>
@@ -149,7 +152,7 @@
 
             <!-- Block map -->
             <section class="map d-flex flex-column justify-content-center">
-                <h2 class="subtitle mt-4 mb-4">Nous trouver</h2>
+                <h2 class="subtitle display-6 mt-4 mb-4">Nous trouver</h2>
                 <iframe class="align-self-center" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.873738203499!2d2.3067663156751306!3d48.87968347928956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fbe98f714c3%3A0xe62425fddeddc402!2sParc%20Monceau!5e0!3m2!1sfr!2sfr!4v1665771761215!5m2!1sfr!2sfr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <address class="d-flex justify-content-center m-5">
                 <p class="text-center text-light m-3">VOITURE : 35 Bd de Courcelles, 75008 Paris</p> 

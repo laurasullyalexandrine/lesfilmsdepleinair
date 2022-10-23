@@ -19,23 +19,19 @@
 
 <body>
     <!-- Block navigation -->
-    <header class="container-nav w-100">
+    <header class="container-nav d-flex flex-column w-100 justify-content-center ">
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
-                    <img class="logo-web" src="../image/home/logo.png" alt="logo-les-films-de-plein-air">
+                    <img class="logo w-75" src="../image/home/logo.png" alt="logo-les-films-de-plein-air">
                 </a>
                 <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                    <!-- Block search -->
-                <form class="d-flex input-group w-50">
-                    <button class="btn btn-outline-secondary" type="submit">Recherche</button>
-                    <input class="form-control me-2" type="search" aria-label="Example text with button addon">
-                </form>
+
                 <!-- Block menu -->
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav me-auto ">
                     <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="index.html">Accueil</a>
                     </li>
@@ -46,36 +42,42 @@
                     <a class="nav-link active" href="about.html">À propos</a>
                     </li>
                 </ul>
+                <!-- Block search -->
+                <form class="d-flex input-group w-50">
+                    <button class="btn btn-outline-secondary" type="submit">Recherche</button>
+                    <input class="form-control me-2" type="search" aria-label="Example text with button addon">
+                </form>               
                 </div>
             </div>
         </nav>
-        <section class="projecteur">
-            <div class="accroche">
-                <h1 class="display-4 mt-3">
-                 <strong>Festival <span class="title-principal">"Les Films de Plein Air"</span> !</strong> 
+        
+        <section class="projecteur d-flex ">
+            <div class="accroche p-5 p-sm-5">
+                <h1 class="display-4 fs-1">
+                    <strong>Le festival <br> <span class="title-principal">"Les Films de Plein Air"</span> !</strong> 
                 </h1>
-                <p class="lead">Ouvre ses portes du 5 au 8 août 2023</p>
-                <p class="information">L'accès au festival est gratuit de 18h à minuit !
+                <p class="lead fs-5">Ouvre ses portes du 5 au 8 août 2023</p>
+                <p class="information pt-4 pt-lg-4">L'accès au festival est gratuit de 18h à minuit !
                     Pour vous accueillir au mieux, <br> vous pouvez nous aider en cliquant sur le bouton "je réserve ma place"<br> en allant sur notre page
                     <a class="accroche-link" href="projection.html">Séances</a>
                 </p>
             </div>
         </section>
     </header>
-
+   
     <main class="wrapper d-flex flex-column">
         <!-- Block content -->
         <article class="article-content d-flex flex-column">
             <section class="news d-flex flex-column mb-4 p-5">
-                <h2 class="subtitle m-5">L'association "Les Films de Plein Air"</h2>
+                <h2 class="subtitle display-6 fs-2 m-5">L'association "Les Films de Plein Air"</h2>
                 <figure class="w-100">
                     <img class="w-100" src="../image/about/assoc.png" alt="team-association">
-                    <figcaption class="text-light font-italic">Toute notre équipe (David- Jennifer - Érica - William - Mélodie - Dévi) </figcaption>
+                    <figcaption class="text-light fs-6">Toute notre équipe <span class="fst-italic">(David- Jennifer - Érica - William - Mélodie - Dévi)</span>  </figcaption>
                 </figure>
             </section>
 
             <section class="about d-flex flex-column mb-4 p-3">
-                <h2 class="subtitle m-5">À propos de nous</h2>
+                <h2 class="subtitle display-6 m-5">À propos de nous</h2>
                 <p class="about-text align-self-center text-light w-75 m-3">Nous venons d'obtenir le droit d'organiser notre festival <strong>"Les Films de Plein Air",</strong> 
                     il ouvrira ses porte du 5 aout au 8 aout de 18 heures à minuit pour notre grand plus plaisir et nous espérons le votre.</p>
                     
@@ -83,7 +85,7 @@
                     <div class="card m-4" style="width: 18rem;">
                         <img src="../image/about/concours.png" class="card-img-top" alt="clair-obscure-poster">
                         <div class="card-body">
-                            <h5 class="card-title card-subtitle">Concours</h5>
+                            <h5 class="card-title card-subtitle fs-4">Concours</h5>
                             <p class="card-text">Synergistically innovate leveraged networks with market positioning
                                 technology. Dynamically innovate.</p>
                         </div>
@@ -91,7 +93,7 @@
                     <div class="card m-4" style="width: 18rem;">
                         <img src="../image/about/petit-bouts-de-films.png" class="card-img-top" alt="clair-obscure-poster">
                         <div class="card-body">
-                            <h5 class="card-title card-subtitle">Petits bouts de film</h5>
+                            <h5 class="card-title card-subtitle fs-4">Petits bouts de film</h5>
                             <p class="card-text">Synergistically innovate leveraged networks with market positioning
                                 technology. Dynamically innovate.</p>
                         </div>
@@ -99,7 +101,7 @@
                     <div class="card m-4" style="width: 18rem;">
                         <img src="../image/about/mains.png" class="card-img-top" alt="clair-obscure-poster">
                         <div class="card-body">
-                            <h5 class="card-title card-subtitle">Engagés</h5>
+                            <h5 class="card-title card-subtitle fs-4">Engagés</h5>
                             <p class="card-text">Synergistically innovate leveraged networks with market positioning
                                 technology. Dynamically innovate.</p>
                         </div>
@@ -108,7 +110,7 @@
             </section>
 
             <section class="contact d-flex flex-column mb-4 p-3">
-                <h2 class="subtitle m-5">Nous contacter</h2>
+                <h2 class="subtitle display-6 m-5">Nous contacter</h2>
                 <h4 class="contact-subtile align-self-center text-light mb-3">Contactez notre équipe de bénévoles.</h4>
                 <p class="contact-text align-self-center mb-3"> <span class="about-span">Email</span> : <a class="contact-link" href="mailto:">contact@les-films-de-plein-air.org</a> </p>
                 <p class="contact-text align-self-center mb-3"> <span class="about-span">Site</span> : <a class="contact-link" href="https://www.les-films-de-plein-air.org">Les Films de Plein Air</a> </p>
@@ -122,7 +124,6 @@
             <div class="row">
                 <div class="col">
                     <ul class="list-inline text-center">
-                        <li class="list-inline-item text-light">Copyright &#169; <strong>Festival Les Films de Pleins Air 2023</strong> &ensp;&ensp;</li>
                         <li class="list-inline-item"><a class="footer-link" href="projection.html">Séances</a>
                         </li>
                         <li class="list-inline-item ms-4"><a class="footer-link" href="about.html">À propos</a></li>
@@ -136,6 +137,7 @@
                                     src="../image/home/twitter.png" alt="icon-facebook"></a></li>
                         <li class="list-inline-item ms-4"><a class="social-link" href="#"><img
                                     src="../image/home/youtube.png" alt="icon-facebook"></a></li>
+                        <li class="list-inline-item text-light">Copyright &#169; <strong>Festival Les Films de Pleins Air 2023</strong> &ensp;&ensp;</li>
                     </ul>
                 </div>
             </div>
