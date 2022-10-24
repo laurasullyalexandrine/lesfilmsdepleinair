@@ -18,9 +18,15 @@ ul {
 
 .news,
 .projections,
-.about,
-.contact {
+.projecteur,
+.about {
     border-bottom: 1px solid #c89739;
+}
+
+footer,
+.projecteur,
+.map {
+    border-top: 1px solid #c89739 !important;
 }
 
 .display-4,
@@ -43,7 +49,8 @@ ul {
 .content-two,
 .content-three,
 .content-four, 
-.sessions-link {
+.sessions-link,
+.card {
     border-radius: 3px;
     border: 1px solid #c89739;
 }
@@ -57,7 +64,6 @@ ul {
 }
 
 .card {
-    border: 1px solid #c89739;
     background-color: transparent;
 }
 
@@ -98,14 +104,8 @@ ul {
 
 
 /* ---------------------------   FOOTER  --------------------------- */
-.container-foot {
-    align-items: center;
-    height: 190px;
-}
-
 .footer-link:hover {
-    color: #fff;
-    border-bottom: 1px solid #c89739;
+    border-bottom: 1px solid #c89739 !important;
 }
 
 
@@ -114,8 +114,6 @@ ul {
 /* --------- CONTENT --------- */
 .projecteur {
     min-height: 270px;
-    border-top: 1px solid #c89739;
-    border-bottom: 1px solid #c89739;
     background-image: url(../image/home/projecteur.jpg); 
 }
 
@@ -144,7 +142,6 @@ ul {
 
 .subtitle {
     color: #c89739;
-    text-align: center;
 }
 
 .subtitle-article {
@@ -207,11 +204,6 @@ time {
 }
 
 /* ----- MAP ----- */
-.map {
-    padding-top: 80px;
-    border-top: 1px solid #c89739;
-}
-
 iframe {
   min-width: 70vw;
   min-height: 610px;
@@ -220,8 +212,6 @@ iframe {
   box-shadow: 5px 5px -5px #2a2826;
 }
 
-
-/* ----- MAP ----- */
 .about-span {
     font-weight: bold;
 }
@@ -229,8 +219,8 @@ iframe {
 .contact-link:hover {
     color: #fff;
     border-bottom: 1px solid #c89739;
-   
 }
+
 
 /* min-width => supérieur à */
 /* maw-width => inférieur à */
