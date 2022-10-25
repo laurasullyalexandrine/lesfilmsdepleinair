@@ -17,7 +17,6 @@ ul {
 }
 
 .news,
-.projections,
 .projecteur,
 .about {
     border-bottom: 1px solid #c89739;
@@ -196,12 +195,9 @@ time {
     margin: 15px 8px !important;
 }
 
-.poster-link {
+/* .poster-link {
     padding: 15px 0 !important;
-}
-.poster-link:hover{
-    color: #c89739;
-}
+} */
 
 /* ----- MAP ----- */
 iframe {
