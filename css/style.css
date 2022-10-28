@@ -1,7 +1,4 @@
-@font-face {
-    font-family: 'Punk Typewriter';
-    src: url('../font/Punk\ Typewriter.eot');
-}
+
 /* ---------------------------   COMMON   --------------------------- */
 body {
     background-color: #141414;
@@ -118,11 +115,12 @@ footer,
 
 .accroche {
     text-align: center;
+    text-shadow: 5px 2px 2px #121111;
     margin-left: 550px
 }
 
 .lead {
-    color: #c89739 !important;
+    color: #fda400 !important;
     font-weight: 300 !important;
 }
 
@@ -263,7 +261,6 @@ iframe {
     }
 
     .accroche {
-        text-shadow: 1px 1px 2px #2a2826;
         margin-left: initial;
     }
 
