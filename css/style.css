@@ -98,6 +98,19 @@ footer,
     border-radius: 3px;
 }
 
+.dropdown-menu {
+    background: #141414 !important;
+}
+
+.dropdown-item {
+    color: #fff !important;
+}
+
+.dropdown-item:hover {
+    color: #c89739 !important;
+    background-color: transparent !important;
+}
+
 
 /* ---------------------------   FOOTER  --------------------------- */
 .footer-link:hover {
@@ -105,9 +118,7 @@ footer,
 }
 
 
-/* ---------------------------   HOME  --------------------------- */
-
-/* --------- CONTENT --------- */
+/* ---------------------------   CONTENT  --------------------------- */
 .projecteur {
     min-height: 270px;
     background-image: url(../image/home/projecteur.jpg); 
@@ -193,9 +204,13 @@ time {
     margin: 15px 8px !important;
 }
 
-/* .poster-link {
-    padding: 15px 0 !important;
-} */
+.subsutitles {
+    color: #c89739 !important;
+}
+
+.movies-link:hover {
+    color: #c89739;
+}
 
 /* ----- MAP ----- */
 iframe {
